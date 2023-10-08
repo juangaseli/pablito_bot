@@ -13,7 +13,8 @@ bot = commands.Bot(command_prefix='.',
 
 #aca añado los archivos con comandos que quiera inicializar en el bot
 initial_extensions = [
-  'cogs.user_commands', 'cogs.copypaste_commands', 'cogs.nsfw_commands'
+  'cogs.user_commands', 'cogs.copypaste_commands', 'cogs.nsfw_commands',
+  'cogs.price_commands'
 ]
 
 

@@ -1,6 +1,6 @@
 import discord
 import os
-from keep_alive import keep_alive
+from dotenv import load_dotenv
 from discord.ext import commands
 from cogs.custom_help import CustomHelpCommand
 
@@ -29,5 +29,5 @@ async def on_ready():
   print(f'Logged in as {bot.user.name}')
 
 
-keep_alive()
+load_dotenv()
 bot.run(os.getenv('TOKEN2'))
